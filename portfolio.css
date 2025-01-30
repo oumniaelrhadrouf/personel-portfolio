@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+}
+body{
+    background-color: #a6ddec;
+}
+#logo{
+    text-decoration: none;
+    color: #132691;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    position: fixed;
+    z-index: 999;
+    gap: 50px;
+    background-color: #bce3ed;
+}
+#listnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+#listnavbar a{
+    color: #132691;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+#listnavbar a:hover{
+    color: #0c99c0;
+    transform: scale(1.1);
+}
+#img1{
+    width: 350px;
+    height: 350px;
+    border-radius: 50% ;
+}
+.container{
+   padding: 150px 200px;
+   
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+   align-items: center;
+   background: url(image/imgbgt1.avif) no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+.cntext .t2{
+    color: #1d64bb;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.cntext .t1{
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-top: 60px;
+}
+.cntext h1{
+    color: #0c2197;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.t3{
+    padding-top: 10px;
+}
+.t4{
+    padding-bottom: 30px;
+}
+.social{
+    padding-top: 30px;
+}
+.social a{
+    padding-left: 5px;
+    font-size: 23px;
+    color: #02126d;
+}
+.social :hover{
+    transform: scale(1.1);
+    font-size: 25px;
+}
+.button1{
+    color: white;
+    background-color: #28399a;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 15px;
+}
+.button1:hover{
+    background-color: #02126d;
+    transform: scale(1.1);
+    padding: 15px;
+    border-radius: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    color: #0c2197;
+    font-size: 2.2em;
+    padding-top: 70px;
+    text-decoration: solid underline;
+}
+.listservice{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: white;
+    width: 21em;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 25px gray;
+    height: 400px;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icone{
+    width: 300px;
+    height: 200px;   
+    border-radius: 10px; 
+}
+.listskills{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card1{
+    background-color: white;
+    width: 15em;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 25px gray;
+    height: 300px; 
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    color: #0c2197;
+    font-size: 1.5em;
+    padding-top: 30px;
+    text-decoration: solid underline;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.icone1{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.pabout{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    padding: 40px;
+}
+.title3{
+    font-weight: 600;
+    font-size: 22px;
+}
+.listabout{
+    list-style: none;
+}
+.paraportfolio{
+    padding: 10px;
+}
+.title4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #0c2197;
+    text-decoration: solid underline;
+}
+.card4{
+    background-color: white;
+    width: 29em;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 25px gray;
+    height: auto;
+}
+.icone4{
+    width: 430px;
+    height: 250px;
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+.card4:hover .icone4{
+    opacity: 0.6;
+}
+.card4 a{
+    color: white;
+    background-color: #28399a;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.card4 p{
+    padding-bottom: 20px;
+}
+.msgcontact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 25px gray;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 30px;
+    width: 90%;
+}
+.msgcontact input , .msgcontact textarea{
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.msgcontact button{
+    display: block;
+    margin: auto;
+}
+.imagecontact{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+.footercnt{
+    background-color: white;
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.footertitle{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #02126d;
+}
+.footertitle span{
+    color: #0c99c0;
+}
+.socialfooter a{
+    padding-left: 5px;
+    font-size: 23px;
+    color: #02126d;
+}
+.socialfooter :hover{
+    transform: scale(1.1);
+    font-size: 25px;
+}
+
+@media (max-width: 1050px) {
+    #navbar {
+        padding: 20px;
+        width: 100%;
+    }
+    .listnav{
+        font-size: 10px;
+    }
+    body{
+        font-size: 14px;
+        width: 100%;
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+        gap: 0px;
+    }
+    .cntext h1 {
+        font-size: 2.5em;
+    }
+    .cntext{
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    #img1 {
+        width: 250px;
+        height: 250px;
+    }
+    .pabout {
+        font-size: 15px;
+        padding: 20px;
+    }
+    .title3{
+        font-size: 17px;
+    }
+    .listskills, .listservice {
+        gap: 30px;
+    }
+    .card, .card1 {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+        height: auto;
+    }
+    .icone1{
+        margin: 10px 27px;
+    }
+    .icone{
+        width: 260px;
+        height: 250px;
+    }
+    .icone4{
+        width: 310px;
+        height: 250px;
+    }
+    #logo{
+        font-weight: 700;
+        font-size: 1.6em;
+    }
+    .allnav{
+        width: 100%;
+    }
+}
+@media (max-width: 1150px) {
+    .cntext .t2{
+        color: #1d64bb;
+        font-size: 1em;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .cntext .t1{
+        font-weight: 600;
+        font-size: 1.1em;
+        margin-top: 60px;
+    }
+    .cntext h1{
+        color: #0c2197;
+        font-size: 2.5em;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 830px) {
+    .allsection{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar {
+        height: 120px;
+        display: block;
+        padding: 20px;
+        flex-direction: column ;
+        flex-wrap: wrap ;
+        align-items: center ;
+    }
+    
+    .container {
+        padding: 130px 5px;
+        align-items: center;
+    }
+    .cntext h1 {
+        font-size: 1.4em;
+    }
+    .cntext .t2 {
+        font-size: 1.1em;
+    }
+    .social a {
+        font-size: 14px;
+    }
+    .button1 {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .msgcontact input, .msgcontact textarea {
+        font-size: 14px;
+    }
+    .msgcontact button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .footertitle {
+        font-size: 1em;
+    }
+    .social {
+        font-size: 12px;
+    }
+    #logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #listnavbar{
+        gap: 10px;  
+    }
+    .listskills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .listservice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .listproject {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    header{
+        text-align: center;
+    }  
+    .title{
+        margin-top: 190px;
+        padding-top:150px ;
+    } 
+    .icone4{
+        margin: auto;
+        padding-left: 35px;
+    }
+    .msgcontact{
+        display: flex;
+        flex-direction: column;
+    }
+    .msg{
+        
+        padding: 20px 10px;
+    }
+}
+@media (max-width: 480px){
+    #listnavbar{
+        gap: 10px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 380px){
+    .card4{
+        background-color: white;
+        width: 22em;
+        padding: 10px;
+         height: auto;
+    }
+    .icone4{
+        margin: auto;
+        padding-left: 5px;
+        width: 280px;
+    }
+}
